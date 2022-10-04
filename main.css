@@ -1,0 +1,15 @@
+html{
+    background-color: #020F0A;
+    color: #FFFFFF;
+    font-family: 'Secular One', sans-serif; 
+    /*colocar fonte regular*/
+}
+
+#logo{
+    width: 76px;
+    height: 74px;
+}
+
+#imagem-de-fundo{
+    width: 300px;
+}
