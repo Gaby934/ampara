@@ -6,10 +6,31 @@ html{
 }
 
 #logo{
-    width: 76px;
-    height: 74px;
+    width: 30px;
+    height: 30px;
 }
 
 #imagem-de-fundo{
     width: 300px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-text{
+    display: flex;
+    text-align: center;
+
+}
+
+#itens{
+    display: flex;
 }
