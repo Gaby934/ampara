@@ -1,5 +1,5 @@
 html{
-    background-color: #020F0A;
+    background-color: black;
     color: #FFFFFF;
     font-family: 'Secular One', sans-serif; 
     /*colocar fonte regular*/
@@ -21,16 +21,32 @@ ul{
 }
 
 #navbar{
+    background-color: green;
     display: flex;
     justify-content: space-between;
 }
 
 #logo-text{
+    padding-left: 20px;
     display: flex;
     text-align: center;
+    align-items: center;
+    gap: 8px;
 
 }
 
 #itens{
+    padding-right: 20px;
+    background-color: blue;
     display: flex;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+html{
+    background: url('./assets/tela\ 1.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    
+
 }
