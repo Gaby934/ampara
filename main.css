@@ -21,7 +21,7 @@ ul{
 }
 
 #navbar{
-    background-color: green;
+    background-color: #020F0A;
     display: flex;
     justify-content: space-between;
 }
@@ -37,7 +37,6 @@ ul{
 
 #itens{
     padding-right: 20px;
-    background-color: blue;
     display: flex;
     gap: 150px;
     padding-top: 20px;
