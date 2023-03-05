@@ -47,6 +47,16 @@ html{
     background: url('./assets/tela\ 1.webp') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    
+}
 
+#slogan{
+    padding-left: 50px;
+    display: flex;
+    padding-top: 15%;
+}
+
+#slogan-text{
+    font-size: 80px;
+    letter-spacing: 3px;
+    line-height: 80px;
 }
