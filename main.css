@@ -76,6 +76,11 @@ html{
     background: #19BD7E;
     border-radius: 100px;
     color: #ffffff;
+    transition: 0.3s;
+}
+
+.botaodoe:hover{
+    background-color: #b4b4b4;
 }
 
 .botaolink{
