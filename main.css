@@ -77,3 +77,13 @@ html{
     border-radius: 100px;
     color: #ffffff;
 }
+
+.botaolink{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botaolink:hover{
+    color: #19BD7E;
+}
