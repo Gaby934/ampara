@@ -56,11 +56,24 @@ html{
 #slogan{
     padding-left: 50px;
     display: flex;
-    padding-top: 15%;
+    padding-top: 15%; /*tirar isso*/
 }
 
 #slogan-text{
     font-size: 80px;
     letter-spacing: 3px;
     line-height: 80px;
+}
+
+/*tirar scroll da direita*/
+
+.botaodoe{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background: #19BD7E;
+    border-radius: 100px;
+    color: #ffffff;
 }
