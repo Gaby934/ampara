@@ -6,7 +6,6 @@ html{
 }
 body{
     margin: 0px;
-    padding: 0px;
 }
 
 #logo{
@@ -88,4 +87,16 @@ ul{
 
 .botaolink:hover{
     color: #19BD7E;
+}
+
+#mensagem-resgate{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    right: 100px;
+    font-size: 25px;
+}
+
+#titulo-resgate{
+    font-size: 50px;
 }
