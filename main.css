@@ -115,3 +115,16 @@ ul{
     border-radius: 50px;
     opacity: 95%;
 }
+
+#lista-contato{
+    list-style: none;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+#titulo-contato{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
