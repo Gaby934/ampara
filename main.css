@@ -104,3 +104,14 @@ ul{
 #titulo-resgate{
     font-size: 50px;
 }
+
+.caixa{
+    width: 85%;
+    height: 70%;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    background-color: #020F0A;
+    border-radius: 50px;
+    opacity: 95%;
+}
