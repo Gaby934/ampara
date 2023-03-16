@@ -53,6 +53,10 @@ ul{
     width: 100vw;
 }
 
+.escuro{
+    filter: brightness(50%)
+}
+
 #slogan-text{
     font-size: 80px;
     letter-spacing: 3px;
