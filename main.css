@@ -105,7 +105,7 @@ ul{
     font-size: 50px;
 }
 
-.caixa{
+#caixa-contato{
     width: 85%;
     height: 70%;
     position: absolute;
@@ -132,4 +132,15 @@ ul{
 #icon-contato{
     width: 20px;
     height: auto;
+}
+
+#caixa-doe{
+    width: 85%;
+    height: 70%;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    opacity: 60%;
 }
