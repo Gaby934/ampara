@@ -1,8 +1,7 @@
 html{
     background-color: black;
     color: #FFFFFF;
-    font-family: 'Secular One', sans-serif; 
-    /*colocar fonte regular*/
+    font-family: 'Secular One', sans-serif;
 }
 body{
     margin: 0px;
@@ -113,19 +112,23 @@ ul{
     background-color: #020F0A;
     border-radius: 50px;
     opacity: 95%;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #lista-contato{
-    list-style: none;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 100px;
     top: 130px;
+    gap: 10px;
 }
 
 #titulo-contato{
     position: absolute;
     left: 100px;
     top: 40px;
+    font-size: 35px;
 }
 
 #icon-contato{
