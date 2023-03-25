@@ -56,6 +56,10 @@ ul{
     filter: brightness(30%)
 }
 
+.escuro-contato{
+    filter: brightness(60%)
+}
+
 #slogan-text{
     font-size: 80px;
     letter-spacing: 3px;
