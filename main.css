@@ -53,7 +53,7 @@ ul{
 }
 
 .escuro{
-    filter: brightness(50%)
+    filter: brightness(30%)
 }
 
 #slogan-text{
@@ -148,4 +148,16 @@ ul{
     opacity: 60%;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
+}
+
+.box{
+    display: flex;
+    gap: 15px;
+    line-height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
