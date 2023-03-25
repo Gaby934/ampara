@@ -97,6 +97,7 @@ ul{
     top: 100px;
     right: 100px;
     font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #titulo-resgate{
@@ -145,4 +146,6 @@ ul{
     background-color: #D9D9D9;
     border-radius: 50px;
     opacity: 60%;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
 }
