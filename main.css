@@ -38,7 +38,6 @@ ul{
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-
 }
 
 #itens{
@@ -175,4 +174,10 @@ ul{
     font-size: 20px;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
+}
+
+.texto-logo{
+    color: #FFFFFF;
+    text-decoration: none;
+    
 }
