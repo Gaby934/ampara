@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid red;
+} */
+
 html{
     background-color: black;
     color: #FFFFFF;
@@ -88,6 +92,7 @@ ul{
     color: #ffffff;
     text-decoration: none;
     transition: 0.3s;
+    text-transform: uppercase;
 }
 
 .botaolink:hover{
@@ -176,8 +181,13 @@ ul{
     font-family: 'DM Sans', sans-serif;
 }
 
+.hero {
+    background-image: url("./assets/home.webp");
+    background-size: cover;
+    height: 100vh;
+}
+
 .texto-logo{
     color: #FFFFFF;
     text-decoration: none;
-    
 }
