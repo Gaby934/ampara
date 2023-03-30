@@ -192,8 +192,14 @@ ul{
     height: 100vh;
 }
 
+#imagem-sobre-nos{
+    background-image: url("./assets/sobre-nós.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 .escuro{
-    filter: brightness(50%)
+    filter: brightness(40%)
 }
 
 .texto-logo{
