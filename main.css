@@ -146,17 +146,16 @@ ul{
     height: auto;
 }
 
-#caixa-doe{
+#caixa-doe {
     width: 85%;
     height: 70%;
     position: absolute;
     left: 100px;
     top: 120px;
-    background-color: #D9D9D9;
     border-radius: 50px;
-    opacity: 60%;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
+    background: rgba(217, 217, 217, .4);
 }
 
 .box{

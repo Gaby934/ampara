@@ -2,10 +2,12 @@
 <html>
   <head>
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Secular+One&display=swap" 
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ampara</title>
@@ -22,24 +24,27 @@
       </a>
 
       <ul id="itens">
-        <li><a href='index.html' class="botaolink">HOME</a></li>
-        <li><a href='resgate.html' class="botaolink">RESGATE</a></li>
-        <li><a href='contato.html' class="botaolink">CONTATO</a></li>
-        <li><a href='sobre-nos.html' class="botaolink">SOBRE NÓS</a></li>
-        <li><a href='doe.html' class="botaodoe">DOE</a></li>
+        <li><a href="index.html" class="botaolink">HOME</a></li>
+        <li><a href="resgate.html" class="botaolink">RESGATE</a></li>
+        <li><a href="contato.html" class="botaolink">CONTATO</a></li>
+        <li><a href="sobre-nos.html" class="botaolink">SOBRE NÓS</a></li>
+        <li><a href="doe.html" class="botaodoe">DOE</a></li>
       </ul>
     </div>
 
     <div>
-      <img src="./assets/doe.jpg" alt="pássaro"  id="slogan" class="escuro"/>
+      <img src="./assets/doe.jpg" alt="pássaro" id="slogan" class="escuro" />
     </div>
 
     <div id="caixa-doe">
       <div id="lista-contato">
-          <p>NOME:</p>
-          <p>CPF:</p>
-          <p>E-MAIL:</p>
-        </div>
+        <form action="getform.php" method="get" class="teste">
+          NOME: <input type="text" name="nome" /><br />
+          TELEFONE: <input type="text" name="sobrenome" /><br />
+          E-MAIL: <input type="email" name="email_usuario" /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
     </div>
   </body>
 </html>
