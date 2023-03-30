@@ -198,6 +198,12 @@ ul{
     height: 100vh;
 }
 
+#imagem-doe{
+    background-image: url("./assets/doe.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 .escuro{
     filter: brightness(40%)
 }
