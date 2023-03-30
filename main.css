@@ -52,14 +52,6 @@ ul{
     padding-top: 20px;
 }
 
-#slogan{
-    width: 100vw;
-}
-
-.escuro{
-    filter: brightness(30%)
-}
-
 .escuro-contato{
     filter: brightness(60%)
 }
@@ -186,6 +178,16 @@ ul{
     background-image: url("./assets/home.webp");
     background-size: cover;
     height: 100vh;
+}
+
+#imagem-resgate{
+    background-image: url("./assets/resgate.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.escuro{
+    filter: brightness(50%)
 }
 
 .texto-logo{
