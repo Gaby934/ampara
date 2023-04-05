@@ -220,3 +220,21 @@ input{
     margin-bottom: 20px;
     margin-top: 5px;
 }
+
+#botao-seta{
+    height: 50px;
+    width: 50px;
+    background-color: #19BD7E;
+    border-radius: 50px;
+    border: none;
+}
+
+#seta{
+    position: absolute;
+    left: 70%;
+    bottom: 50px;
+}
+
+#teste{
+    width: 30px;
+}
