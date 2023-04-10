@@ -229,10 +229,9 @@ input{
     border: none;
 }
 
-#seta{
+.seta{
     position: absolute;
-    left: 70%;
-    bottom: 50px;
+    left: 100%;
 }
 
 #teste{
