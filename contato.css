@@ -1,0 +1,52 @@
+#imagem-contato{
+    background-image: url("./assets/contato.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.escuro-contato{
+    filter: brightness(60%)
+}
+
+#caixa-contato{
+    width: 85%;
+    height: 70%;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    background-color: #020F0A;
+    border-radius: 50px;
+    opacity: 95%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#titulo-contato{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#lista-contato{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.box{
+    display: flex;
+    gap: 15px;
+    line-height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-contato{
+    width: 20px;
+    height: auto;
+}

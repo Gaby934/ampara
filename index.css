@@ -1,0 +1,14 @@
+.hero {
+    background-image: url("./assets/home.webp");
+    background-size: cover;
+    height: 100vh;
+}
+
+#slogan-text{
+    font-size: 80px;
+    letter-spacing: 3px;
+    line-height: 80px;
+    position: absolute;
+    left: 100px;
+    top: 280px;
+}

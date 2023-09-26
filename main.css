@@ -2,6 +2,12 @@
     outline: 1px solid red;
 } */
 
+@import url(index.css);
+@import url(resgate.css);
+@import url(contato.css);
+@import url(sobre-nos.css);
+@import url(doe.css);
+
 html{
     background-color: black;
     color: #FFFFFF;
@@ -52,19 +58,6 @@ ul{
     padding-top: 20px;
 }
 
-.escuro-contato{
-    filter: brightness(60%)
-}
-
-#slogan-text{
-    font-size: 80px;
-    letter-spacing: 3px;
-    line-height: 80px;
-    position: absolute;
-    left: 100px;
-    top: 280px;
-}
-
 .botaodoe{
     padding-right: 20px;
     padding-left: 20px;
@@ -93,118 +86,6 @@ ul{
     color: #19BD7E;
 }
 
-#mensagem-resgate{
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    right: 100px;
-    font-size: 25px;
-    font-family: 'DM Sans', sans-serif;
-}
-
-#titulo-resgate{
-    font-size: 40px;
-}
-
-#caixa-contato{
-    width: 85%;
-    height: 70%;
-    position: absolute;
-    left: 100px;
-    top: 120px;
-    background-color: #020F0A;
-    border-radius: 50px;
-    opacity: 95%;
-    font-family: 'DM Sans', sans-serif;
-}
-
-#lista-contato{
-    position: absolute;
-    left: 100px;
-    top: 150px;
-}
-
-#titulo-contato{
-    position: absolute;
-    left: 100px;
-    top: 40px;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-#icon-contato{
-    width: 20px;
-    height: auto;
-}
-
-#caixa-doe {
-    width: 85%;
-    height: 70%;
-    position: absolute;
-    left: 100px;
-    top: 120px;
-    border-radius: 50px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
-    background: rgba(217, 217, 217, .4);
-}
-
-.box{
-    display: flex;
-    gap: 15px;
-    line-height: 25px;
-}
-
-.icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#mensagem-sobre-nos{
-    position: absolute;
-    top: 120px;
-    left: 150px;
-    right: 150px;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.hero {
-    background-image: url("./assets/home.webp");
-    background-size: cover;
-    height: 100vh;
-}
-
-#imagem-resgate{
-    background-image: url("./assets/resgate.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-
-#imagem-contato{
-    background-image: url("./assets/contato.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-
-#imagem-sobre-nos{
-    background-image: url("./assets/sobre-nós.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-
-#imagem-doe{
-    background-image: url("./assets/doe.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-
-.escuro{
-    filter: brightness(40%)
-}
-
 .texto-logo{
     color: #FFFFFF;
     text-decoration: none;
@@ -221,25 +102,9 @@ input{
     margin-top: 5px;
 }
 
-#botao-seta{
-    height: 50px;
-    width: 50px;
-    background-color: #19BD7E;
-    border-radius: 50px;
-    border: none;
-}
 
-.seta{
-    position: absolute;
-    left: 100%;
-}
 
-#teste{
-    width: 30px;
-}
 
-#lista-doe{
-    position: absolute;
-    left: 300px;
-    top: 50px;
-}
+
+
+
