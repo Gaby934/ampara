@@ -2,12 +2,6 @@
     outline: 1px solid red;
 } */
 
-@import url(index.css);
-@import url(resgate.css);
-@import url(contato.css);
-@import url(sobre-nos.css);
-@import url(doe.css);
-
 html{
     background-color: black;
     color: #FFFFFF;

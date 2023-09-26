@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("./assets/home.webp");
+    background-image: url("../assets/home.webp");
     background-size: cover;
     height: 100vh;
 }
