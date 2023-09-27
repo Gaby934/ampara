@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,26 +12,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ampara</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/doe.css"
+    />
+    <script src="../js/navbar.js"></script>
   </head>
 
   <body>
-    <div id="navbar">
-      <a href="index.html" id="logo-text" class="texto-logo">
-        <img src="./assets/logo.png" alt="logo do site" id="logo" />
-        <span>Ampara</span>
-      </a>
-
-      <ul id="itens">
-        <li><a href="index.html" class="botaolink">Home</a></li>
-        <li><a href="resgate.html" class="botaolink">Resgate</a></li>
-        <li><a href="contato.html" class="botaolink">Contato</a></li>
-        <li><a href="sobre-nos.html" class="botaolink">Sobre Nós</a></li>
-        <li><a href="doe.html" class="botaodoe">Doe</a></li>
-      </ul>
-    </div>
-
+    <div id="navbar-placeholder"></div>
     <div id="imagem-doe" class="escuro"></div>
 
     <div id="caixa-doe">
@@ -40,11 +37,14 @@
           NOME: <input type="text" name="nome" /><br />
           TELEFONE: <input type="text" name="sobrenome" /><br />
           E-MAIL: <input type="email" name="email_usuario" /><br />
-          <button type='submit' id="botao-seta" class="seta">
-            <img src="./assets/seta.svg" alt="seta" id="teste"/>
+          <button type="submit" id="botao-seta" class="seta">
+            <img src="../assets/seta.svg" alt="seta" id="teste" />
           </button>
         </form>
       </div>
     </div>
+    <script>
+      includeNavbar();
+    </script>
   </body>
 </html>

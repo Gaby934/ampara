@@ -1,5 +1,5 @@
 #imagem-resgate{
-    background-image: url("./assets/resgate.jpg");
+    background-image: url("../assets/resgate.jpg");
     background-size: cover;
     height: 100vh;
 }

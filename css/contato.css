@@ -1,5 +1,5 @@
 #imagem-contato{
-    background-image: url("./assets/contato.jpg");
+    background-image: url("../assets/contato.jpg");
     background-size: cover;
     height: 100vh;
 }

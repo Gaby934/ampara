@@ -1,5 +1,5 @@
 #imagem-doe{
-    background-image: url("./assets/doe.jpg");
+    background-image: url("../assets/doe.jpg");
     background-size: cover;
     height: 100vh;
 }

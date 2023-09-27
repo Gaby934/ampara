@@ -1,5 +1,5 @@
 #imagem-sobre-nos{
-    background-image: url("./assets/sobre-nós.jpg");
+    background-image: url("../assets/sobre-nós.jpg");
     background-size: cover;
     height: 100vh;
 }
