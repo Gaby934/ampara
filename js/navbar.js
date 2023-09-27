@@ -1,5 +1,5 @@
 function includeNavbar(){
-    fetch("/navbar.html")
+    fetch("../pages/navbar.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("navbar-placeholder").innerHTML = data;
