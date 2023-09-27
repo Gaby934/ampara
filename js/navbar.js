@@ -1,66 +1,44 @@
-function includeNavbar(){
-    fetch("../pages/navbar.html")
+function definaConteudo(pagina){
+    fetch(pagina)
     .then((response) => response.text())
     .then((data) => {
-      document.getElementById("navbar-placeholder").innerHTML = data;
+      document.getElementById("conteudo-site").innerHTML = data;
     });
 }
-
+definaConteudo('../pages/home.html')
 var itensDoMenu = document.getElementsByClassName('nav-item');
 for(var z = 0; z < itensDoMenu.length; z++) {
     var elem = itensDoMenu[z];   
-    var nomeDoMenu = elem.innerHTML
-    if(nomeDoMenu=='Home'){
+    var nomeDoMenu = elem.href
+    if(nomeDoMenu=='http://127.0.0.1:5500/home'){
       elem.onclick = function() {
-        fetch("../pages/home.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("conteudo-site").innerHTML = data;
-        });
+        definaConteudo('../pages/home.html')
+          return false;
+      };
+    }
+    if(nomeDoMenu=='http://127.0.0.1:5500/resgate'){
+      elem.onclick = function() {
+        definaConteudo('../pages/resgate.html')
 
           return false;
       };
     }
-    if(nomeDoMenu=='Resgate'){
+    if(nomeDoMenu=='http://127.0.0.1:5500/contato'){
       elem.onclick = function() {
-        fetch("../pages/resgate.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("conteudo-site").innerHTML = data;
-        });
+        definaConteudo('../pages/contato.html')
+          return false;
+      };
+    }
+    if(nomeDoMenu=='http://127.0.0.1:5500/sobre-nos'){
+      elem.onclick = function() {
+        definaConteudo('../pages/sobre-nos.html')
 
           return false;
       };
     }
-    if(nomeDoMenu=='Contato'){
+    if(nomeDoMenu=='http://127.0.0.1:5500/doe'){
       elem.onclick = function() {
-        fetch("../pages/contato.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("conteudo-site").innerHTML = data;
-        });
-
-          return false;
-      };
-    }
-    if(nomeDoMenu=='Sobre Nós'){
-      elem.onclick = function() {
-        fetch("../pages/sobre-nos.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("conteudo-site").innerHTML = data;
-        });
-
-          return false;
-      };
-    }
-    if(nomeDoMenu=='Doe'){
-      elem.onclick = function() {
-        fetch("../pages/doe.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("conteudo-site").innerHTML = data;
-        });
+        definaConteudo('../pages/doe.html')
 
           return false;
       };
