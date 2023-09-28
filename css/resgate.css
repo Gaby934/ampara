@@ -4,10 +4,6 @@
     height: 100vh;
 }
 
-.escuro{
-    filter: brightness(40%)
-}
-
 #mensagem-resgate{
     position: absolute;
     left: 100px;

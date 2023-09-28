@@ -92,7 +92,9 @@ input{
     margin-top: 5px;
 }
 
-
+.sombra{
+    filter: brightness(40%)
+}
 
 
 
