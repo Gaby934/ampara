@@ -96,6 +96,22 @@ input{
     filter: brightness(40%)
 }
 
+.titulo{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.texto{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    right: 100px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
 
 
 

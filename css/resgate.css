@@ -3,12 +3,3 @@
     background-size: cover;
     height: 100vh;
 }
-
-#mensagem-resgate{
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    right: 100px;
-    font-size: 25px;
-    font-family: 'DM Sans', sans-serif;
-}

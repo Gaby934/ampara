@@ -3,13 +3,3 @@
     background-size: cover;
     height: 100vh;
 }
-
-#mensagem-sobre-nos{
-    position: absolute;
-    top: 120px;
-    left: 150px;
-    right: 150px;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'DM Sans', sans-serif;
-}
